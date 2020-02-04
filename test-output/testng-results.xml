@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Emp Creation Success]]>
+    </line>
+    <line>
+      <![CDATA[User Creation is Fail]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="95219" started-at="2020-02-04T06:32:04Z" finished-at="2020-02-04T06:33:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="95219" started-at="2020-02-04T06:32:04Z" finished-at="2020-02-04T06:33:39Z">
+      <class name="DriverFactory.TestScript">
+        <test-method status="PASS" signature="generatereport()[pri:0, instance:DriverFactory.TestScript@1a8a8f7c]" name="generatereport" is-config="true" duration-ms="239" started-at="2020-02-04T06:32:04Z" finished-at="2020-02-04T06:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generatereport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DriverFactory.TestScript@1a8a8f7c]" name="setUp" is-config="true" duration-ms="17208" started-at="2020-02-04T06:32:04Z" finished-at="2020-02-04T06:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="empCreation()[pri:0, instance:DriverFactory.TestScript@1a8a8f7c]" name="empCreation" duration-ms="19110" started-at="2020-02-04T06:32:22Z" finished-at="2020-02-04T06:32:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Emp Creation Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- empCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverFactory.TestScript@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="10049" started-at="2020-02-04T06:32:41Z" finished-at="2020-02-04T06:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DriverFactory.TestScript@1a8a8f7c]" name="setUp" is-config="true" duration-ms="12826" started-at="2020-02-04T06:32:51Z" finished-at="2020-02-04T06:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="usercreation()[pri:1, instance:DriverFactory.TestScript@1a8a8f7c]" name="usercreation" duration-ms="26107" started-at="2020-02-04T06:33:04Z" finished-at="2020-02-04T06:33:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User Creation is Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- usercreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverFactory.TestScript@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="9646" started-at="2020-02-04T06:33:30Z" finished-at="2020-02-04T06:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DriverFactory.TestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
